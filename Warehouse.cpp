@@ -1,9 +1,9 @@
 
 //Aparaitites bibliothikes
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <ctime>
+#include <iostream> // parexei leitoyrgies ejodou ( cout cin klp )
+#include <fstream> // epitrepei tin anagnwsi kai eggrafi arxeiwn 
+#include <vector> // dynamiki domi dedomenon ( xrhsh vector )
+#include <ctime>  // parexei leitourgies sxetikes me ton xrono kai tin imerominia
 #include <iomanip> // Bibliothiki gia to setw()
 using namespace std;
 
@@ -179,7 +179,7 @@ void showProducts() {
         return;
     }
 
-    // Επικεφαλίδες πίνακα με σταθερό πλάτος στηλών
+    // Γ…Γ°Γ©ΓªΓ¥Γ¶Γ΅Γ«ΓΓ¤Γ¥Γ² Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¬Γ¥ Γ³Γ΄Γ΅Γ¨Γ¥Γ±ΓΌ Γ°Γ«ΓΓ΄Γ―Γ² Γ³Γ΄Γ§Γ«ΓΎΓ­
     cout << " ----------------------------------------------------------\n";
     cout << "|  " << setw(8) << "BARCODE" << "  |  " 
          << setw(15) << "NAME" << "  |  " 
